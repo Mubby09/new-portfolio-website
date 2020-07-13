@@ -10,8 +10,8 @@
 body {
     position: relative;
     font-family: 'Open Sans Condensed', sans-serif;
-    background: whitesmoke;
-    color: black;
+    background: teal;
+    color: white;
     text-align: center;
     font-size: 18px;
     padding: 50px;
@@ -24,6 +24,13 @@ html {
 }
 
 .self {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+    margin: auto;
     background: rgb(76, 80, 76);
     padding: 20px;
     border-radius: 5px;
@@ -115,7 +122,8 @@ div a {
     margin-top: 30px;
     margin-bottom: 30px;
     display: flex;
-    justify-content: space-between;
+
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -189,6 +197,10 @@ label {
     margin-bottom: 20px;
 }
 
+::placeholder {
+    color: white;
+}
+
 input {
     border-top: none;
     border-left: 0;
@@ -230,8 +242,25 @@ input:focus {
     transform: scale(0.95);
 }
 
+textarea {
+    background: transparent;
+}
+
 textarea:focus {
     outline: 0;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
 }
 
 
@@ -248,10 +277,14 @@ textarea:focus {
     #vanillaJs-projects,
     .react-project {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
         text-align: center;
         margin: auto;
+    }
+
+    .self {
+        height: 50vh;
     }
 }
