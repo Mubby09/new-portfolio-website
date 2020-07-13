@@ -222,7 +222,6 @@ input:focus {
     cursor: pointer;
     background-color: black;
     color: white;
-    transition: 0.3s all ease-in-out;
 }
 
 .send-message:hover {
@@ -246,7 +245,7 @@ textarea:focus {
     outline: 0;
 }
 
-.socials {
+#socials {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,6 +258,20 @@ textarea:focus {
     color: black;
 }
 
+.btn {
+    background: whitesmoke;
+    color: black;
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+    /* transform: scale(1.7); */
+}
 
 
 @media(max-width: 500px) {
