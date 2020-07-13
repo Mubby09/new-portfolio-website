@@ -105,7 +105,6 @@ ul li a:hover {
 
 img {
     object-fit: cover;
-    cursor: pointer;
     height: 100px;
     width: 100px;
     transition: 0.3s all ease-in-out;
