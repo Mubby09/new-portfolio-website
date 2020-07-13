@@ -193,6 +193,7 @@ input {
     border-top: none;
     border-left: 0;
     border-right: 0;
+    border-bottom: 1px solid black;
     font-size: 15px;
     margin-bottom: 10px;
     background: transparent;
@@ -213,6 +214,7 @@ input:focus {
     cursor: pointer;
     background-color: black;
     color: white;
+    transition: 0.3s all ease-in-out;
 }
 
 .send-message:hover {
@@ -221,6 +223,14 @@ input:focus {
 }
 
 .send-message:focus {
+    outline: 0;
+}
+
+.send-message:active {
+    transform: scale(1.01);
+}
+
+textarea:focus {
     outline: 0;
 }
 
