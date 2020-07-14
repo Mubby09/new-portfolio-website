@@ -81,12 +81,18 @@ ul li a:hover {
 }
 
 .navbar-toggle {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     cursor: pointer;
     z-index: 5;
-    margin: 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.navbar-toggle:focus {
+    outline: none;
 }
 
 .my-image {
