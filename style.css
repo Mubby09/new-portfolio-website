@@ -106,6 +106,14 @@ ul li a:hover {
     border-radius: 50%;
 }
 
+.tech-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
 .technologies {
     display: flex;
     flex-wrap: wrap;
@@ -268,7 +276,6 @@ textarea:focus {
     color: black;
     transition: 0.2s all ease-in;
 }
-
 
 .btn {
     background: whitesmoke;
