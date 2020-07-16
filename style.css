@@ -140,10 +140,19 @@ img {
   align-items: center;
 }
 
-#vanillaJs-projects {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+.vanillajs-container {
   margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#vanillaJs-projects {
+  display: flex;
+
+  margin-bottom: 40px;
+  text-align: center;
+  margin: auto;
 }
 
 .vanilla {
@@ -321,9 +330,15 @@ textarea:focus {
     margin: auto;
   }
 
+  .vanillajs-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
   #vanillaJs-projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
   }
 
   .self {
