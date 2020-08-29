@@ -14,7 +14,7 @@ body {
   text-align: center;
   font-size: 18px;
   padding: 50px;
-  font-size: 20px;
+  font-size: 1.3rem;
   margin: auto;
   width: 100%;
   overflow-x: hidden;
@@ -134,9 +134,8 @@ img {
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -174,8 +173,17 @@ img {
   box-shadow: 2px 2px 8px 2px #888888;
 }
 
-.react {
+.react1 {
   background: url(./images/rev-clothing.png) no-repeat center center/cover;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.react2 {
+  background: url(./images/beachimage.png) no-repeat center center/cover;
   object-fit: cover;
   height: 200px;
   width: 200px;
@@ -197,34 +205,16 @@ img {
   z-index: 5;
   border-radius: 5px;
   color: white;
-  z-index: 3;
+  width: 100%;
 }
 
 .span:hover {
   opacity: 0.7;
 }
 
-
 .progression {
   color: yellow;
 }
-
-/* .form-section {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-} */
-
-/* form {
-    margin: 20px;
-    border: 1px solid black;
-    padding: 10px;
-    height: 100%;
-    border-radius: 5px;
-} */
 
 label {
   font-size: 20px;
@@ -279,6 +269,8 @@ input:focus {
 
 textarea {
   background: transparent;
+  color: white;
+  font-size: 1.3rem;
 }
 
 textarea:focus {
@@ -326,7 +318,7 @@ textarea:focus {
   .react-project {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: auto;
