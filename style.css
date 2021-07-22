@@ -191,6 +191,24 @@ img {
   border-radius: 5px;
 }
 
+.website {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.client-works {
+  background: url(./images/classicPhotography.png) no-repeat center center/cover;
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  border-radius: 5px;
+}
+
 .span {
   position: absolute;
   display: flex;
